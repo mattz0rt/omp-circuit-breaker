@@ -1,0 +1,32 @@
+{
+  "name": "omp-circuit-breaker",
+  "version": "1.0.0",
+  "description": "OMP/Pi circuit-breaker — pause after N server errors, per-prompt ephemeral, same threshold",
+  "type": "module",
+  "main": "index.ts",
+  "files": [
+    "index.ts",
+    "README.md",
+    "install.sh",
+    "LICENSE"
+  ],
+  "keywords": [
+    "omp",
+    "pi",
+    "extension",
+    "circuit-breaker",
+    "error-handling"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattz0rt/omp-circuit-breaker.git"
+  },
+  "homepage": "https://github.com/mattz0rt/omp-circuit-breaker#readme",
+  "bugs": {
+    "url": "https://github.com/mattz0rt/omp-circuit-breaker/issues"
+  },
+  "peerDependencies": {
+    "@oh-my-pi/pi-coding-agent": ">=17.0.0"
+  }
+}
